@@ -19,8 +19,6 @@ function FetchApiData() {
     },[]);
   return (
     <div>
-        {data.lists && console.log(data.lists.length)}
-       
        <GenerateListsByListNum apiData={data}/>
     </div>
   )
